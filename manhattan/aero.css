@@ -1,0 +1,251 @@
+/*css reset yahoo*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+
+	padding:0;
+
+}
+
+table {
+
+	border-collapse:collapse;
+
+	border-spacing:0;
+
+}
+
+fieldset,img { 
+
+	border:0;
+
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+
+	font-style:normal;
+
+	font-weight:normal;
+
+}
+
+ol,ul {
+
+	list-style:none;
+
+}
+
+caption,th {
+
+	text-align:left;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+	font-weight:normal;
+
+}
+
+q:before,q:after {
+
+	content:'';
+
+}
+
+abbr,acronym { border:0;
+
+}
+
+
+
+#outer {width: 900px;margin:0 auto;}
+
+h2{color: black;
+font-family: georgia;
+Margin-top: 3px;
+Margin-bottom:0px;
+font-weight: bold;
+display: inline}
+
+h2.twelve{font-family: georgia;
+		color:#cccccc;
+		font weight: bold;}/*working on using this as a date field*/
+
+
+
+h1{color:black}
+
+h1.twelve{color: #ff9933;
+	line-height:.02em;
+	margin-left: 1.2em;
+	font-weight: 300;
+	display: inline; 
+	Font-size: 2em}
+
+#what a:link    { color: green; font-weight: bold; text-decoration:none;}
+
+#what a:visited { color: green; font-weight: bold; text-decoration:none;}
+
+#what a:hover   { color: grey; font-weight: bold; text-decoration:none;}
+
+#what a:active  { color: grey; font-weight: bold; text-decoration:none;}
+
+
+h3 a:link    { color: green; font-weight: bold; text-decoration:none;}
+
+h3 a:visited { color: green; font-weight: bold; text-decoration:none;}
+
+h3 a:hover   { color: grey; font-weight: bold; text-decoration:none;}
+
+h3 a:active  { color: grey; font-weight: bold; text-decoration:none;}
+
+
+a:link    { color: #ffd700; font-weight: normal; text-decoration:none;}
+
+a:visited { color: #ffd700; font-weight: normal; text-decoration:none;}
+
+a:hover   { color: yellow; font-weight: normal; text-decoration:none;}
+
+a:active  { color: yellow; font-weight: normal; ext-decoration:none;}
+
+
+body {margin-top: 2em
+	margin-bottom: 5em}
+
+p {margin-top: 1.2em;
+	margin-right: 20em;
+        width: 43em}
+
+#first p:first-letter{float: left; font-size: 300%; line-height: 80%; letter-spacing: .1em}
+
+
+img{width: 43em;
+display:inline-block;}
+
+
+
+#spkrbox {background-color: white;
+
+		float: right;
+
+		margin-top:0em;		
+
+		margin-right: 2.5em;
+
+		line-height: 1.2em;
+
+		letter-spacing: 2px;
+
+		width: 10em;
+
+		hight: 40em;
+
+		}
+#spkrbox img {width: auto;
+        height: auto;}
+
+#logo {background-color: white;
+
+		float: right;
+
+		margin-top:0em;		
+
+		margin-right: 3em;
+
+		line-height: 2em;
+
+		letter-spacing: 2px;
+
+		width: 10em;
+
+		hight: 10em;
+
+		}
+
+ #logo img { display:inline-block;
+		margin-right: 3em;
+		margin-top: 2em;
+		margin-bottom: 0;
+	width: auto;
+        height: auto;}
+
+#logo a:hover { color: #ffffff}
+
+ #top img { 	float: right;
+		margin-top: 0;
+		opacity: 0.2
+                width: auto;
+                height: auto;}
+		
+		 #lo img { width: 14%;
+		margin-left: 37em;
+		margin-top: 0;
+		float: auto;
+		padding: 0
+	}
+ #svg { width: 41px;
+        height: 41px;}
+
+#navigation ul {list-style: none;
+		padding: 0;
+		margin: 0;}		
+						
+#navigation li {float: right;
+		margin: 0 0.2em;}
+
+#navigation li a {clear: both;
+			background: grey bottom left repeat-x;
+                height: 1.4em;
+                line-height: 2em;
+                float: right;
+                width: 6em;
+                display: block;
+                border: 0.1em grey;
+                color: white;
+		    font-family: Kozuka Gothic Pro EL; 	
+                text-decoration: inherit;
+                text-align: center;}
+		
+#navigation li a:hover {
+	          color: #009900;
+	          cursor: pointer;
+	          background: #dddddd;
+}
+
+#navigation li:hover {
+	border-bottom: 1px solid #dddddd;
+	background: #ffffff;
+}
+				
+
+
+#navigation {width: 43em}
+
+.nav3 {
+    background-color: white;
+    height: auto;
+    width: 20em;
+    float: right;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    padding-top: -1em;
+    padding-right: 0em;
+}
+
+.icons{
+    display:inline-block;
+    width: 64px; 
+    height: 64px; 
+   }
+
+ a.icons:hover {
+     background: #C93;
+ }
+#search { margin-left: 45em;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+	width: auto;
+        height: auto;}
